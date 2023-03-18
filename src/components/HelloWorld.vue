@@ -33,6 +33,7 @@
 
 <script>
   import shuffle from '@/shuffle';
+  import { isProxy, toRaw } from 'vue';
 
   export default {
     created() {
@@ -43,6 +44,7 @@
     data: () => ({
       numPlayers: 2,
       packsPerPlayer: 4,
+      maxAttempts: 100,
       uniqueColors: true,
       uniqueTypes: true,
       playerChoices: [2,3,4,5,6,7,8],
@@ -53,38 +55,49 @@
     }),
     methods: {
       randomize() {
+        for (let i=0; i < this.maxAttempts; i++) {
+          this.shuffle();
+          if (!this.error) {
+            return;
+          }
+        }
+      },
+      shuffle() {
         this.error = null;
         this.distribution = null;
         if (this.data) {
-          const shuffled = shuffle(this.data);
+          const rawData = isProxy(this.data) ? toRaw(this.data) : this.data;
+          const shuffled = shuffle(rawData);
           const result = [];
           for (let player=0; player < this.numPlayers; player++) {
             const playerPacks = [];
             const colors = new Set();
             const types = new Set();
             for (let i=0; i < this.packsPerPlayer; i++) {
-              let draftedPack = null;
+              let draftedPackIndex = null;
               for (let j=0; j < shuffled.length; j++) {
                 const pack = shuffled[j];
                 const colorOkay = !this.uniqueColors || pack.colors.length != 1 || !colors.has(pack.colors[0]);
                 const typeOkay = !this.uniqueTypes || !types.has(pack.front);
                 if (colorOkay && typeOkay) {
-                  draftedPack = j;
+                  draftedPackIndex = j;
                   break;
                 }
               }
-              if (draftedPack != null) {
-                const newPack = shuffled.splice(draftedPack, 1)[0];
-                playerPacks.push(newPack);
-                if (newPack.colors.length == 1) {
-                  colors.add(newPack.colors[0]);
+              if (draftedPackIndex != null) {
+                const draftedPack = shuffled[draftedPackIndex];
+                shuffled.splice(draftedPackIndex, 1);
+                if (draftedPack.colors.length == 1) {
+                  colors.add(draftedPack.colors[0]);
                 }
-                types.add(newPack.front);
+                types.add(draftedPack.front);
+                playerPacks.push(draftedPack);
               }
               else {
                 this.error = 'Draft failed. Changes the settings and/or try again.';
                 return;
               }
+              console.log(shuffled);
             }
             result.push(playerPacks);
           }
