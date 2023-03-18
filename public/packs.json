@@ -1,0 +1,302 @@
+[
+  {
+    "number": 1,
+    "title": "Garruk",
+    "colors": [
+      "G"
+    ],
+    "front": "JMP-016"
+  },
+  {
+    "number": 2,
+    "title": "Devilish",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-007"
+  },
+  {
+    "number": 3,
+    "title": "Minions",
+    "colors": [
+      "B"
+    ],
+    "front": "JMP-024"
+  },
+  {
+    "number": 4,
+    "title": "Well-Read",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-044"
+  },
+  {
+    "number": 5,
+    "title": "Tree-Hugging",
+    "colors": [
+      "G"
+    ],
+    "front": "JMP-039"
+  },
+  {
+    "number": 6,
+    "title": "Spellcasting",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-035"
+  },
+  {
+    "number": 7,
+    "title": "Spellcasting",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-035"
+  },
+  {
+    "number": 8,
+    "title": "Dinosaurs",
+    "colors": [
+      "G"
+    ],
+    "front": "JMP-008"
+  },
+  {
+    "number": 9,
+    "title": "Heavily Armored",
+    "colors": [
+      "W"
+    ],
+    "front": "JMP-018"
+  },
+  {
+    "number": 10,
+    "title": "Feathered Friends",
+    "colors": [
+      "W"
+    ],
+    "front": "JMP-015"
+  },
+  {
+    "number": 11,
+    "title": "Rainbow",
+    "colors": [
+      "W",
+      "U",
+      "B",
+      "R",
+      "G"
+    ],
+    "front": "JMP-010"
+  },
+  {
+    "number": 12,
+    "title": "Phyrexian",
+    "colors": [
+      "B"
+    ],
+    "front": "JMP-026"
+  },
+  {
+    "number": 13,
+    "title": "Basri",
+    "colors": [
+      "W"
+    ],
+    "front": "JMP-004"
+  },
+  {
+    "number": 14,
+    "title": "Smashing",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-034"
+  },
+  {
+    "number": 15,
+    "title": "Spirits",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-036"
+  },
+  {
+    "number": 16,
+    "title": "Smashing",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-034"
+  },
+  {
+    "number": 17,
+    "title": "Teferi",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-038"
+  },
+  {
+    "number": 18,
+    "title": "Elves",
+    "colors": [
+      "G"
+    ],
+    "front": "JMP-013"
+  },
+  {
+    "number": 19,
+    "title": "Wizards",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-046"
+  },
+  {
+    "number": 20,
+    "title": "Goblins",
+    "colors": [
+      "R"
+    ],
+    "front": "JMP-017"
+  },
+  {
+    "number": 21,
+    "title": "Legion",
+    "colors": [
+      "W"
+    ],
+    "front": "JMP-020"
+  },
+  {
+    "number": 22,
+    "title": "Milling",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-023"
+  },
+  {
+    "number": 23,
+    "title": "Feathered Friends",
+    "colors": [
+      "W"
+    ],
+    "front": "JMP-015"
+  },
+  {
+    "number": 24,
+    "title": "Minions",
+    "colors": [
+      "B"
+    ],
+    "front": "JMP-024"
+  },
+  {
+    "number": 25,
+    "title": "Monster Territory",
+    "colors": [
+      "G"
+    ],
+    "front": "DMU-10"
+  },
+  {
+    "number": 26,
+    "title": "Coalition Corps",
+    "colors": [
+      "W"
+    ],
+    "front": "DMU-1"
+  },
+  {
+    "number": 27,
+    "title": "Titanic",
+    "colors": [
+      "G"
+    ],
+    "front": "BRO-5"
+  },
+  {
+    "number": 28,
+    "title": "Archaeology",
+    "colors": [
+      "U"
+    ],
+    "front": "JMP-003"
+  },
+  {
+    "number": 29,
+    "title": "Wolves",
+    "colors": [
+      "G"
+    ],
+    "front": "J22-045"
+  },
+  {
+    "number": 30,
+    "title": "Blink",
+    "colors": [
+      "W"
+    ],
+    "front": "J22-001"
+  },
+  {
+    "number": 31,
+    "title": "Constellation",
+    "colors": [
+      "W"
+    ],
+    "front": "J22-003"
+  },
+  {
+    "number": 32,
+    "title": "Cats",
+    "colors": [
+      "W"
+    ],
+    "front": "J22-002"
+  },
+  {
+    "number": 33,
+    "title": "Infantry",
+    "colors": [
+      "W"
+    ],
+    "front": "BRO-1"
+  },
+  {
+    "number": 34,
+    "title": "Detective",
+    "colors": [
+      "U"
+    ],
+    "front": "J22-010"
+  },
+  {
+    "number": 35,
+    "title": "Multi-headed",
+    "colors": [
+      "G"
+    ],
+    "front": "J22-043"
+  },
+  {
+    "number": 36,
+    "title": "Progress",
+    "colors": [
+      "U"
+    ],
+    "front": "ONE-2"
+  },
+  {
+    "number": 37,
+    "title": "Mite-Y",
+    "colors": [
+      "W"
+    ],
+    "front": "ONE-1"
+  }
+]
