@@ -298,5 +298,21 @@
       "W"
     ],
     "front": "ONE-1"
+  },
+  {
+    "number": 38,
+    "title": "Brood",
+    "colors": [
+      "W"
+    ],
+     "front": "MOM-1"
+  },
+  {
+    "number": 39,
+    "title": "Reinforcement",
+    "colors": [
+      "R"
+    ],
+    "front": "MOM-4"
   }
 ]
